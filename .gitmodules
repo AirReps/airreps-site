@@ -1,0 +1,3 @@
+[submodule "website-content"]
+	path = website-content
+	url = https://github.com/AirReps/website-content.git

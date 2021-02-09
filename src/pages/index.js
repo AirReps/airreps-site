@@ -17,7 +17,7 @@ const features = [
     ),
   },
   {
-    title: 'Up to date respources',
+    title: 'Up to date resources',
     imageUrl: 'img/undraw_real-time_sync.svg',
     description: (
       <>
@@ -65,10 +65,10 @@ function Home() {
           <div className={styles.buttons}>
             <Link
               className={clsx(
-                'button button--outline button--secondary button--lg',
+                'button button--filled button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/ultimate-guide')}>
+              to={useBaseUrl('docs/')}>
               Read the Ultimate Guide
             </Link>
           </div>

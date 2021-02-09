@@ -6,8 +6,8 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'AirReps', // Usually your GitHub org/user name.
-  projectName: 'airreps.github.io', // Usually your repo name.
+  organizationName: 'AirReps', // GitHub org/user name.
+  projectName: 'airreps.github.io', // deployment repo.
   themeConfig: {
     navbar: {
       title: 'AirReps',
@@ -55,7 +55,7 @@ module.exports = {
           items: [
             {
               label: 'Google Play Store',
-              href: 'https://play.google.com/store/apps/details?id=com.airoha.utapp.sdk',
+              href: 'https://airreps.info/android',
             },
 //            {
 //              label: 'iOS ()',
@@ -73,15 +73,8 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/AirReps/website-content/tree/edit',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

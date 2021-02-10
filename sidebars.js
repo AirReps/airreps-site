@@ -3,17 +3,17 @@ module.exports = {
     Guides: [
         'guide-introduction',
         'guide-product-quality',
-        'guide-headset-versions',
+        'guide-version-information',
         'guide-chipset-information',
-        'guide-reviews',
         'guide-ordering',
-        'guide-links',
-        'guide-dictionary',
-        'guide-faq',
         'guide-troubleshooting'
     ],
     Firmware: [
         'firmware-information'
     ],
+    FAQ: [
+        'faq-faq',
+        'faq-dictionary'
+    ]
   },
 };

@@ -11,6 +11,10 @@ module.exports = {
     Firmware: [
         'firmware-information'
     ],
+    API: [
+        'api-docs',
+        'api-nodejs'
+    ],
     FAQ: [
         'faq-faq',
         'faq-dictionary'

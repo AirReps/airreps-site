@@ -11,7 +11,7 @@ module.exports = {
     Firmware: [
         'firmware-information'
     ],
-    API: [
+    APIs: [
         'api-docs',
         'api-nodejs'
     ],

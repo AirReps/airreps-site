@@ -9,7 +9,14 @@ module.exports = {
   organizationName: 'AirReps', // GitHub org/user name.
   projectName: 'airreps.github.io', // deployment repo.
   themeConfig: {
+    hideableSidebar: true,
+    announcementBar: {
+      id: 'supportus',
+      content:
+        '🎯 Want to contribute? <a target="_blank" rel="noopener noreferrer" href="https://github.com/AirReps/website-content/tree/edit">Fork our documentation and create a PR!</a> 🎯',
+    },
     navbar: {
+      hideOnScroll: true,
       title: 'AirReps',
       logo: {
         alt: 'Airreps',
@@ -76,6 +83,8 @@ module.exports = {
           editUrl:
             'https://github.com/AirReps/website-content/tree/edit',
         },
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },

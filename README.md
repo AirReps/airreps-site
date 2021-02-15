@@ -1,50 +1,37 @@
-# Website
+> **If you need to modifying content (ex. the "guides"), then you're in the wrong repository!**
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), 
-a modern static website generator.
+> This repository only handles the 'logic' of our site.
 
 # Cloning this repository
-It should've cloned all submodles out of the box, but if it didn't, add the `--recursive`
-flag to your cloning statement.
-* ex `git clone https://github.com/AirReps/airreps-site.git --recursive`
 
-## Installation
+> `git clone https://github.com/AirReps/airreps-site.git --recursive`
 
-```console
-yarn install
-```
-_or_
-```console
-npm install
-```
+The submodles should be cloned out of the box, but if that didn't happen add the `--recursive` flag to your cloning statement.
 
-## Local Development
+# Local Development
+1. After cloning the repository, install project dependencies:
+    ```console
+    yarn install
+    --or--
+    npm install
+    ```
+1. Make sure your `docs` submodule is up to date.
+    ```console
+    cd docs/ && git pull origin master && cd ../..
+     ```
+1. Spin-up your local dev server.
+    ```console
+    yarn start
+    --or--
+    npm run start
+    ```
 
-```console
-yarn start
-```
-_or_
-```console
-npm run start
-```
+## Build & Deploy
 
-This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
+> Build and deployments are handled automatically by our pipeline when a PR is completed on `website-content`. However, you can trigger a build/deployment cycle manually if desired.
 
-## Build
-
-```console
-yarn build
-```
-_or_
-```console
-npm run build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-> This command will build & deploy 
-
-```console
-GIT_USER=<Your GitHub username> USE_SSH=false yarn deploy
-```
+### Run a manual build/deployment 
+You can run a build/deployment cycle with Github Actions in the `website-content` repository.
+1. [Navigate to the website-content repository and click "Actions"](https://github.com/AirReps/website-content/actions?query=workflow%3A%22Publish+Documentation%22)
+1. Click `Run Workflow` and make sure `Use workflow from: "Branch: master"` is selected.
+1. Click the green `Run Workflow` button.

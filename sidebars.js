@@ -4,12 +4,19 @@ module.exports = {
         'guide-introduction',
         'guide-product-quality',
         'guide-version-information',
-        'guide-chipset-information',
         'guide-ordering',
         'guide-troubleshooting'
     ],
+    'Sound Quality': [
+        'soundQuality-introduction',
+        'soundQuality-apple',
+        'soundQuality-aitronics',
+        'soundQuality-dongguan',
+        'soundQuality-tigerbuilder',
+    ],
     Firmware: [
-        'firmware-information'
+        'firmware-chipset-information',
+        'firmware-firmware'
     ],
     APIs: [
         'api-introduction',

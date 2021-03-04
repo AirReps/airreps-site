@@ -9,6 +9,7 @@ module.exports = {
     ],
     'Sound Quality': [
         'soundQuality-introduction',
+        'soundQuality-equaliser',
         'soundQuality-apple',
         'soundQuality-aitronics',
         'soundQuality-dongguan',

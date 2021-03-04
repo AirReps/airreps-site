@@ -5,7 +5,7 @@ module.exports = {
         'guide-product-quality',
         'guide-version-information',
         'guide-ordering',
-        'guide-troubleshooting'
+        'guide-troubleshooting',
     ],
     'Sound Quality': [
         'soundQuality-introduction',
@@ -14,20 +14,21 @@ module.exports = {
         'soundQuality-aitronics',
         'soundQuality-dongguan',
         'soundQuality-tigerbuilder',
+        'soundQuality-equaliser',
     ],
     Firmware: [
         'firmware-chipset-information',
-        'firmware-firmware'
+        'firmware-firmware',
     ],
     APIs: [
         'api-introduction',
         'api-wrapper',
         'api-discord',
-        'api-chipset'
+        'api-chipset',
     ],
     FAQ: [
         'faq-faq',
-        'faq-dictionary'
+        'faq-dictionary',
     ]
   },
 };

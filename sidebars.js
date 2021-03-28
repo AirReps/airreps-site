@@ -4,6 +4,7 @@ module.exports = {
         'guide-introduction',
         'guide-product-quality',
         'guide-version-information',
+        'guide-verification',
         'guide-ordering',
         'guide-troubleshooting',
     ],

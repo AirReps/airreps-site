@@ -25,6 +25,7 @@ module.exports = {
         'api-wrapper',
         'api-discord',
         'api-chipset',
+        'api-stats',
     ],
     FAQ: [
         'faq-faq',
